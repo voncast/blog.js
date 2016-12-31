@@ -5,7 +5,8 @@
   "main": "./app/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./entry.js"
+    "start": "node --harmony ./app/app.js",
+    "start6": "node ./entry.js"
   },
   "repository": {
     "type": "git",

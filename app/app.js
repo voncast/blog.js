@@ -2,7 +2,7 @@ const Koa = require('koa');
 const app = new Koa();
 
 // response
-app.use(ctx => {
+app.use(async ctx => {
     ctx.body = 'Hello Koa';
 });
 
